@@ -1,0 +1,49 @@
+body {
+    font-family: 'Noto Serif JP', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border:0;
+
+}
+/*--------------------header---------------------------*/
+.header {
+    background-color: #181b23;
+   
+    color:white;
+}
+.header div {
+   line-height: 60px;
+}
+.header>div>div>div:nth-child(1) {
+    font-family: Myriad Pro;
+    font-size: 24px;
+}
+.header>div>div>div:nth-child(2) {
+    font-size: 24px;
+}
+#login {
+    border-left:1px solid #454e5c;
+    padding-left: 60px;
+}
+#login,#register {
+    box-sizing: border-box;
+    border-right: 1px solid #454e5c;
+    width:132px;
+    
+    position: relative;
+    font-size:16px;
+}
+#login::before {
+    content: '';
+    position: absolute;
+    top: 22px;
+    left: 35px;
+    display: block;
+    background-image: url(/img/user1.png);
+    background-repeat: no-repeat;
+    height:30px;
+    width: 30px;
+
+
+}
