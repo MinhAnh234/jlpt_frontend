@@ -44,6 +44,15 @@ body {
     background-repeat: no-repeat;
     height:30px;
     width: 30px;
-
-
 }
+/*----------------------*/
+/*content*/
+.select {
+    display: inline-block;
+}
+@media screen and (max-width: 480px) {
+    .select {
+        display: block !important;
+    }
+}
+
